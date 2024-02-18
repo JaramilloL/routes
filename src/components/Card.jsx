@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const Card = ({ item }) => {
   return (
-    <div className="card col">
+    <div className="card col" data-aos="fade-up">
                 <img
                   src={item.image}
                   className="card-img-top w-100"

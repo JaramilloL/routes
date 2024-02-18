@@ -8,3 +8,9 @@ body{
 .justify-text{
   text-align: justify;
 }
+.size-icon{
+  size: 30px;
+}
+.size-icon:hover{
+  transform: scale(1.5)
+}
